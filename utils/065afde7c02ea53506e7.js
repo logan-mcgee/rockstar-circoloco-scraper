@@ -473,9 +473,9 @@
         getCdnPrefix: () => a.getCdnPrefix,
         getScConfigForOrigin: () => m.Z,
         importAll: () => a.importAll,
-        lsSettingsReactive: () => v.settingsReactive,
-        mutateLSSettings: () => v.mutateLSSettings,
-        safeStyles: () => p,
+        lsSettingsReactive: () => p.settingsReactive,
+        mutateLSSettings: () => p.mutateLSSettings,
+        safeStyles: () => v,
         supportedBrowsers: () => w,
         toScLocaleString: () => g.r,
         useBodyScrollable: () => d,
@@ -484,7 +484,7 @@
         usePreloadImg: () => i.usePreloadImg,
         useQueryParams: () => i.useQueryParams,
         useRockstarLocalState: () => i.useRockstarLocalState,
-        useRockstarWebLSSettings: () => v.useRockstarWebLSSettings,
+        useRockstarWebLSSettings: () => p.useRockstarWebLSSettings,
         useScApi: () => i.useScApi,
         useScroll: () => i.useScroll,
         withGtmTracking: () => r.withGtmTracking,
@@ -513,11 +513,11 @@
         g = n(914),
         f = n(948),
         h = n.n(f);
-      const p = e => {
+      const v = e => {
         const t = h().clone(e);
         return t?.["margin-top"] && (t.marginTop = t["margin-top"]), t?.["margin-bottom"] && (t.marginBottom = t["margin-bottom"]), t?.["margin-left"] && (t.marginLeft = t["margin-left"]), t?.["margin-right"] && (t.marginRight = t["margin-right"]), delete t?.["margin-top"], delete t?.["margin-bottom"], delete t?.["margin-right"], delete t?.["margin-left"], t
       };
-      var v = n(251);
+      var p = n(251);
       const w = /Edge?\/(109|1[1-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Firefox\/(10[2-9]|1[1-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Chrom(ium|e)\/(10[89]|1[1-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Maci.+ Version\/(15\.([6-9]|\d{2,})|(1[6-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(9[4-9]|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(14[._]([5-9]|\d{2,})|(1[5-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](109|1[1-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Mobile Safari.+OPR\/(7[3-9]|[89]\d|\d{3,})\.\d+\.\d+|Android.+Firefox\/(1{2}\d|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(1{2}\d|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+(UC? ?Browser|UCWEB|U3)[ /]?(13\.([4-9]|\d{2,})|(1[4-9]|[2-9]\d|\d{3,})\.\d+)\.\d+|SamsungBrowser\/(19|[2-9]\d|\d{3,})\.\d+|Android.+MQ{2}Browser\/(13(\.([1-9]|\d{2,})|)|(1[4-9]|[2-9]\d|\d{3,})(\.\d+|))(\.\d+|)|K[Aa][Ii]OS\/(2\.([5-9]|\d{2,})|([3-9]|\d{2,})\.\d+)(\.\d+|)/
     },
     251: (e, t, n) => {
@@ -596,7 +596,7 @@
           } = e;
           const [n, l] = (0, a.useState)(window.pageYOffset), [d, u] = (0, a.useState)(null), [m, g] = (0, a.useState)(!1), f = (0, r.useReactiveVar)(o);
           let h;
-          const p = () => {
+          const v = () => {
             g(!0), clearTimeout(h), h = setTimeout((() => {
               g(!1)
             }), 2e3)
@@ -604,7 +604,7 @@
           return (0, a.useEffect)((() => {
             let e;
             const t = () => {
-              if (f) return;
+              if (f) return void u(!1);
               const t = Math.max(0, window.pageYOffset);
               l(t), m || u(t > 60 && t > e), e = t
             };
@@ -615,12 +615,12 @@
             value: {
               freezeUserShouldSeeMore: f,
               pageYOffset: n,
-              pauseUserShouldSeeMore: p,
+              pauseUserShouldSeeMore: v,
               setFreezeUserShouldSeeMore: s,
               userShouldSeeMore: d
             },
             children: t
-          })), [f, n, p, d])
+          })), [f, n, v, d])
         }
     },
     616: e => {

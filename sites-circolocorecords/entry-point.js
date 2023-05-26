@@ -11340,7 +11340,7 @@ var sites_circolocorecords;
       6783: (e, t, n) => {
         var r = {
             "./bootstrap": () => n.e(774).then((() => () => n(3774))),
-            "./tina": () => Promise.all([n.e(976), n.e(258)]).then((() => () => n(4258))),
+            "./tina": () => Promise.all([n.e(976), n.e(346)]).then((() => () => n(2346))),
             "./utils": () => n.e(479).then((() => () => n(4479)))
           },
           a = (e, t) => (n.R = t, t = n.o(r, e) ? r[e]() : Promise.resolve().then((() => {
@@ -11382,6 +11382,18 @@ var sites_circolocorecords;
             r.message = "Loading script failed.\n(" + a + ": " + o + ")", r.name = "ScriptExternalLoadError", r.type = a, r.request = o, t(r)
           }), "graph_client")
         })).then((() => graph_client))
+      },
+      7048: (e, t, n) => {
+        var r = new Error;
+        e.exports = new Promise(((e, t) => {
+          if ("undefined" != typeof modules_core_card) return e();
+          n.l(window.mfe.path("@rockstargames/modules-core-card"), (n => {
+            if ("undefined" != typeof modules_core_card) return e();
+            var a = n && ("load" === n.type ? "missing" : n.type),
+              o = n && n.target && n.target.src;
+            r.message = "Loading script failed.\n(" + a + ": " + o + ")", r.name = "ScriptExternalLoadError", r.type = a, r.request = o, t(r)
+          }), "modules_core_card")
+        })).then((() => modules_core_card))
       },
       6993: (e, t, n) => {
         var r = new Error;
@@ -11453,14 +11465,14 @@ var sites_circolocorecords;
       get: t[n]
     })
   }, l.f = {}, l.e = e => Promise.all(Object.keys(l.f).reduce(((t, n) => (l.f[n](e, t), t)), [])), l.u = e => "js/" + {
-    190: "b151564ea095342ee52c",
-    258: "921b659d2be1e1245911",
+    190: "67d0f530b00556791730",
+    346: "4a80c8e446438349e6bf",
     479: "bec8ec48a981417b2834",
     774: "b6889cf2b71b91eb8704",
     976: "b57d6ef2b867059834fc"
   } [e] + ".js", l.miniCssF = e => "css/" + {
     190: "103cd0f57b27d385e844",
-    258: "74188b0d795eb7f16920"
+    346: "57ad5f75db0a02737d3d"
   } [e] + ".css", l.g = function() {
     if ("object" == typeof globalThis) return globalThis;
     try {
@@ -11500,7 +11512,7 @@ var sites_circolocorecords;
     })
   }, n = {
     190: [4690, 4859, 7842, 8008, 9929],
-    258: [559, 3204, 3616, 4224, 6307, 9542],
+    346: [559, 3204, 3616, 4224, 6947, 9542],
     976: [8976]
   }, r = {
     559: ["default", "./helpers/uploads", 1489],
@@ -11509,7 +11521,7 @@ var sites_circolocorecords;
     4224: ["default", "./index", 6993],
     4690: ["default", "./onetrust", 8810],
     4859: ["default", "./index", 5171],
-    6307: ["default", "./tinaBlockTemplates", 9525],
+    6947: ["default", "./components", 7048],
     7842: ["default", "./browser", 692],
     8008: ["default", "./providers", 9525],
     8976: ["default", "./index", 9525],
@@ -11585,7 +11597,7 @@ var sites_circolocorecords;
             }
           },
           c = [];
-        return "default" === n && (u("react-dom", "18.2.0", (() => () => l(5591)), 1), u("react-router-dom", "6.9.0", (() => () => l(3489)), 1), u("react", "18.2.0", (() => () => l(1769)), 1), s(9525), s(6993), s(1489), s(5171), s(692), s(8810)), c.length ? e[n] = Promise.all(c).then((() => e[n] = 1)) : e[n] = 1
+        return "default" === n && (u("react-dom", "18.2.0", (() => () => l(5591)), 1), u("react-router-dom", "6.9.0", (() => () => l(3489)), 1), u("react", "18.2.0", (() => () => l(1769)), 1), s(9525), s(7048), s(6993), s(1489), s(5171), s(692), s(8810)), c.length ? e[n] = Promise.all(c).then((() => e[n] = 1)) : e[n] = 1
       }
     }
   })(), (() => {
@@ -11712,7 +11724,7 @@ var sites_circolocorecords;
       l.f.miniCss = (t, n) => {
         e[t] ? n.push(e[t]) : 0 !== e[t] && {
           190: 1,
-          258: 1
+          346: 1
         } [t] && n.push(e[t] = (e => new Promise(((t, n) => {
           var r = l.miniCssF(e),
             a = l.p + r;

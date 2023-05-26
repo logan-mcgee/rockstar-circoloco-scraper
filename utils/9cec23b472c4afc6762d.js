@@ -1,4 +1,4 @@
-/*! For license information please see efceae3f20bad97c7408.js.LICENSE.txt */
+/*! For license information please see 9cec23b472c4afc6762d.js.LICENSE.txt */
 "use strict";
 (self.webpackChunk_rockstargames_utils = self.webpackChunk_rockstargames_utils || []).push([
   [439], {
@@ -36,9 +36,9 @@
     },
     62: (e, r, t) => {
       t.d(r, {
-        ID: () => i,
+        ID: () => c,
         rj: () => u,
-        vO: () => c
+        vO: () => i
       });
       var o = t(859),
         s = t(822),
@@ -46,12 +46,12 @@
       const l = (0, o.makeVar)(!1),
         u = e => l(e),
         a = (0, s.createContext)(null),
-        c = () => (0, s.useContext)(a),
-        i = e => {
+        i = () => (0, s.useContext)(a),
+        c = e => {
           let {
             children: r
           } = e;
-          const [t, c] = (0, s.useState)(window.pageYOffset), [i, d] = (0, s.useState)(null), [f, v] = (0, s.useState)(!1), _ = (0, o.useReactiveVar)(l);
+          const [t, i] = (0, s.useState)(window.pageYOffset), [c, d] = (0, s.useState)(null), [f, v] = (0, s.useState)(!1), _ = (0, o.useReactiveVar)(l);
           let p;
           const w = () => {
             v(!0), clearTimeout(p), p = setTimeout((() => {
@@ -61,9 +61,9 @@
           return (0, s.useEffect)((() => {
             let e;
             const r = () => {
-              if (_) return;
+              if (_) return void d(!1);
               const r = Math.max(0, window.pageYOffset);
-              c(r), f || d(r > 60 && r > e), e = r
+              i(r), f || d(r > 60 && r > e), e = r
             };
             return window.addEventListener("scroll", r), () => {
               window.removeEventListener("scroll", r)
@@ -74,10 +74,10 @@
               pageYOffset: t,
               pauseUserShouldSeeMore: w,
               setFreezeUserShouldSeeMore: u,
-              userShouldSeeMore: i
+              userShouldSeeMore: c
             },
             children: r
-          })), [_, t, w, i])
+          })), [_, t, w, c])
         }
     },
     115: (e, r, t) => {
@@ -93,16 +93,16 @@
         };
       r.jsx = function(e, r, t) {
         var o, a = {},
-          c = null,
-          i = null;
-        for (o in void 0 !== t && (c = "" + t), void 0 !== r.key && (c = "" + r.key), void 0 !== r.ref && (i = r.ref), r) n.call(r, o) && !u.hasOwnProperty(o) && (a[o] = r[o]);
+          i = null,
+          c = null;
+        for (o in void 0 !== t && (i = "" + t), void 0 !== r.key && (i = "" + r.key), void 0 !== r.ref && (c = r.ref), r) n.call(r, o) && !u.hasOwnProperty(o) && (a[o] = r[o]);
         if (e && e.defaultProps)
           for (o in r = e.defaultProps) void 0 === a[o] && (a[o] = r[o]);
         return {
           $$typeof: s,
           type: e,
-          key: c,
-          ref: i,
+          key: i,
+          ref: c,
           props: a,
           _owner: l.current
         }

@@ -1,4 +1,4 @@
-/*! For license information please see 3e5b9dd6cd5a95454e7b.js.LICENSE.txt */
+/*! For license information please see db0b268cb5b5c927ec40.js.LICENSE.txt */
 "use strict";
 (self.webpackChunk_rockstargames_utils = self.webpackChunk_rockstargames_utils || []).push([
   [61], {
@@ -334,7 +334,7 @@
           return (0, o.useEffect)((() => {
             let e;
             const t = () => {
-              if (p) return;
+              if (p) return void d(!1);
               const t = Math.max(0, window.pageYOffset);
               l(t), f || d(t > 60 && t > e), e = t
             };

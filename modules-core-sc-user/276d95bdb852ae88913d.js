@@ -666,7 +666,7 @@
             ie(), setTimeout(ie, 1e3)
           }), [ee, q, K]), (0, d.useEffect)((() => {
             const e = j?.currentCharId ?? 0;
-            M(Math.min(e, se.length - 1))
+            M(Math.max(0, Math.min(e, se.length - 1)))
           }), [se, j]), (0, m.jsxs)(m.Fragment, {
             children: [null !== O && "gtao" === I && (0, m.jsxs)("div", {
               className: _.scProfile,

@@ -1,4 +1,4 @@
-/*! For license information please see b151564ea095342ee52c.js.LICENSE.txt */
+/*! For license information please see 67d0f530b00556791730.js.LICENSE.txt */
 (self.webpackChunk_rockstargames_sites_circolocorecords = self.webpackChunk_rockstargames_sites_circolocorecords || []).push([
   [190], {
     3190: (e, s, r) => {
@@ -7,14 +7,14 @@
       var a = r(4690),
         l = r.n(a),
         i = r(1224),
-        c = r(6310),
-        t = r(8976),
+        t = r(6310),
+        c = r(8976),
         o = r(8008),
         n = r(4859),
         d = r(1853);
       const m = "f844af752a3329707dcc";
       var h = r(9706);
-      const j = () => (0, h.jsxs)(t.Grid, {
+      const j = () => (0, h.jsxs)(c.Grid, {
         className: "e518924f0c8876b2b1b4",
         children: [(0, h.jsx)("h4", {
           children: "FOLLOW US"
@@ -66,11 +66,11 @@
               href: "mailto:pr@circolocorecords.com",
               target: "_blank",
               children: "Press"
-            }), (0, h.jsx)(t.A, {
+            }), (0, h.jsx)(c.A, {
               to: "/submissions",
               className: x.link,
               children: "Submissions"
-            }), (0, h.jsx)(t.A, {
+            }), (0, h.jsx)(c.A, {
               onClick: () => window.OneTrust?.ToggleInfoDisplay(),
               children: s("Cookie Settings")
             })]
@@ -116,7 +116,7 @@
           clrVinylReleaseButtonWrap: "edb98300c79badc79781",
           purchaseDisclaimer: "fb226c6ee21ac323845e"
         },
-        k = e => {
+        N = e => {
           let {
             src: s
           } = e;
@@ -134,7 +134,7 @@
             })
           })
         },
-        N = e => {
+        k = e => {
           let {
             artist: s = "",
             title: r = ""
@@ -157,7 +157,7 @@
           }), "."]
         }),
         w = () => {
-          const [e, s] = (0, c.useSearchParams)(), [, a] = (0, o.useModal)();
+          const [e, s] = (0, t.useSearchParams)(), [, a] = (0, o.useModal)();
           return (0, d.useEffect)((() => {
             e.get("info") && a({
               content: (0, h.jsx)(b(), {
@@ -168,7 +168,7 @@
           }), [e.get("info")]), (0, h.jsxs)("div", {
             className: u.home,
             children: [(0, h.jsx)("section", {
-              children: (0, h.jsx)(t.Grid, {
+              children: (0, h.jsx)(c.Grid, {
                 className: [u.inner, u.gap_lg].join(" "),
                 children: (0, h.jsx)("img", {
                   className: u.logo,
@@ -177,11 +177,127 @@
                 })
               })
             }), (0, h.jsx)("section", {
-              children: (0, h.jsxs)(t.Grid, {
+              children: (0, h.jsxs)(c.Grid, {
                 className: u.gap_lg,
-                children: [(0, h.jsxs)(t.Grid, {
+                children: [(0, h.jsxs)(c.Grid, {
                   className: [u.clr, u.inner, u.gap_md].join(" "),
-                  children: [(0, h.jsx)(t.Grid, {
+                  children: [(0, h.jsx)(c.Grid, {
+                    children: (0, h.jsxs)("div", {
+                      children: [(0, h.jsx)("h3", {
+                        children: "CLR 005"
+                      }), (0, h.jsx)("h2", {
+                        children: "ANYWAY"
+                      })]
+                    })
+                  }), (0, h.jsxs)(c.Grid, {
+                    className: [u.releases, u.twoColDesktop].join(" "),
+                    children: [(0, h.jsx)(N, {
+                      src: "https://www.youtube.com/embed/V402i6y-pNA?controls=0"
+                    }), (0, h.jsx)(c.Grid, {
+                      className: [u.right, u.gap_sm].join(" "),
+                      children: (0, h.jsxs)("div", {
+                        className: "greys",
+                        children: [(0, h.jsx)(k, {
+                          artist: "THE GHOSTBUSTERS",
+                          title: "CLOWN"
+                        }), (0, h.jsx)(k, {
+                          artist: "ADI",
+                          title: "NEXT CHAPTER"
+                        }), (0, h.jsx)(k, {
+                          artist: "EDWARD",
+                          title: "PINATRA"
+                        }), (0, h.jsx)(k, {
+                          artist: "LEAFAR LEGOV",
+                          title: "GOES"
+                        }), (0, h.jsx)(k, {
+                          artist: "MAP.ACHE",
+                          title: "IZA"
+                        })]
+                      })
+                    })]
+                  })]
+                }), (0, h.jsx)(c.Grid, {
+                  className: [u.clr, u.inner, u.gap_md].join(" "),
+                  children: (0, h.jsx)("div", {
+                    className: u.left,
+                    children: (0, h.jsxs)(c.Grid, {
+                      className: [u.whites, u.gap_xs, u.releases].join(" "),
+                      children: [(0, h.jsx)("div", {
+                        children: (0, h.jsx)("div", {
+                          className: [u.white, u.grey].join(" "),
+                          children: "LISTEN NOW"
+                        })
+                      }), (0, h.jsxs)("div", {
+                        className: u.logos,
+                        children: [(0, h.jsx)("a", {
+                          href: "https://lnk.to/CLR005EP1",
+                          target: "_blank",
+                          className: u.link,
+                          rel: "noreferrer",
+                          children: (0, h.jsx)("img", {
+                            src: r(3969),
+                            alt: "Beatport logo"
+                          })
+                        }), (0, h.jsx)("a", {
+                          href: "https://lnk.to/CLR005EP1",
+                          target: "_blank",
+                          className: u.link,
+                          rel: "noreferrer",
+                          children: (0, h.jsx)("img", {
+                            src: r(5848),
+                            alt: "Bandcamp logo"
+                          })
+                        }), (0, h.jsx)("a", {
+                          href: "https://lnk.to/CLR005EP1",
+                          target: "_blank",
+                          className: u.link,
+                          rel: "noreferrer",
+                          children: (0, h.jsx)("img", {
+                            src: r(2491),
+                            alt: "Spotify logo"
+                          })
+                        }), (0, h.jsx)("a", {
+                          href: "https://lnk.to/CLR005EP1",
+                          target: "_blank",
+                          className: u.link,
+                          rel: "noreferrer",
+                          children: (0, h.jsx)("img", {
+                            src: r(8029),
+                            alt: "Soundcloud logo"
+                          })
+                        })]
+                      }), (0, h.jsxs)("div", {
+                        className: u.logos,
+                        children: [(0, h.jsx)("a", {
+                          href: "https://lnk.to/CLR005EP1",
+                          target: "_blank",
+                          className: u.link,
+                          rel: "noreferrer",
+                          children: (0, h.jsx)("img", {
+                            src: r(4157),
+                            alt: "Apple Music logo"
+                          })
+                        }), (0, h.jsx)("a", {
+                          href: "https://lnk.to/CLR005EP1",
+                          target: "_blank",
+                          className: u.link,
+                          rel: "noreferrer",
+                          children: (0, h.jsx)("img", {
+                            src: r(2479),
+                            alt: "iTunes logo"
+                          })
+                        })]
+                      })]
+                    })
+                  })
+                }), (0, h.jsx)(_, {})]
+              })
+            }), (0, h.jsx)("section", {
+              children: (0, h.jsxs)(c.Grid, {
+                className: u.gap_lg,
+                children: [(0, h.jsxs)(c.Grid, {
+                  className: [u.clr, u.inner, u.gap_md].join(" "),
+                  children: [(0, h.jsx)(c.Grid, {
                     children: (0, h.jsxs)("div", {
                       children: [(0, h.jsx)("h3", {
                         children: "CLR 006"
@@ -189,38 +305,38 @@
                         children: "INTRO"
                       })]
                     })
-                  }), (0, h.jsxs)(t.Grid, {
+                  }), (0, h.jsxs)(c.Grid, {
                     className: [u.releases, u.twoColDesktop].join(" "),
-                    children: [(0, h.jsx)(k, {
+                    children: [(0, h.jsx)(N, {
                       src: "https://www.youtube.com/embed/pwv8GAhGS7Y?controls=0"
-                    }), (0, h.jsx)(t.Grid, {
+                    }), (0, h.jsx)(c.Grid, {
                       className: [u.right, u.gap_sm].join(" "),
                       children: (0, h.jsxs)("div", {
                         className: "greys",
-                        children: [(0, h.jsx)(N, {
+                        children: [(0, h.jsx)(k, {
                           artist: "CHLOÉ CAILLET",
                           title: "NYWTF feat. Mikhail Beltran"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "CHLOÉ CAILLET",
                           title: "KNOW NOW FEAT. POTÉ"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "CHLOÉ CAILLET",
                           title: "IN THE MIDDLE FEAT. FALLE NIOKE & WEKAFORÉ"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "CHLOÉ CAILLET",
                           title: "QUIERES (PART 1)"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "CHLOÉ CAILLET",
                           title: "QUIERES (PART 2) FEAT. KALETA"
                         })]
                       })
                     })]
                   })]
-                }), (0, h.jsx)(t.Grid, {
+                }), (0, h.jsx)(c.Grid, {
                   className: [u.clr, u.inner, u.gap_md].join(" "),
                   children: (0, h.jsx)("div", {
                     className: u.left,
-                    children: (0, h.jsxs)(t.Grid, {
+                    children: (0, h.jsxs)(c.Grid, {
                       className: [u.whites, u.gap_xs, u.releases].join(" "),
                       children: [(0, h.jsx)("div", {
                         className: [u.white, u.grey].join(" "),
@@ -291,11 +407,11 @@
                 })]
               })
             }), (0, h.jsx)("section", {
-              children: (0, h.jsxs)(t.Grid, {
+              children: (0, h.jsxs)(c.Grid, {
                 className: u.gap_lg,
-                children: [(0, h.jsxs)(t.Grid, {
+                children: [(0, h.jsxs)(c.Grid, {
                   className: [u.clr, u.inner, u.gap_md].join(" "),
-                  children: [(0, h.jsx)(t.Grid, {
+                  children: [(0, h.jsx)(c.Grid, {
                     children: (0, h.jsxs)("div", {
                       children: [(0, h.jsx)("h3", {
                         children: "CLR 007"
@@ -303,29 +419,29 @@
                         children: "WORLD IS EMPTY"
                       })]
                     })
-                  }), (0, h.jsxs)(t.Grid, {
+                  }), (0, h.jsxs)(c.Grid, {
                     className: [u.releases, u.twoColDesktop].join(" "),
-                    children: [(0, h.jsx)(k, {
+                    children: [(0, h.jsx)(N, {
                       src: "https://www.youtube.com/embed/dXMVkfqD4Lw"
-                    }), (0, h.jsx)(t.Grid, {
+                    }), (0, h.jsx)(c.Grid, {
                       className: [u.right, u.gap_sm].join(" "),
                       children: (0, h.jsxs)("div", {
                         className: "greys",
-                        children: [(0, h.jsx)(N, {
+                        children: [(0, h.jsx)(k, {
                           artist: "SKREAM & JANSONS",
                           title: "WORLD IS EMPTY"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "SKREAM & JANSONS",
                           title: "WORLD IS EMPTY - EXTENDED"
                         })]
                       })
                     })]
                   })]
-                }), (0, h.jsx)(t.Grid, {
+                }), (0, h.jsx)(c.Grid, {
                   className: [u.clr, u.inner, u.gap_md].join(" "),
                   children: (0, h.jsx)("div", {
                     className: u.left,
-                    children: (0, h.jsxs)(t.Grid, {
+                    children: (0, h.jsxs)(c.Grid, {
                       className: [u.whites, u.gap_xs, u.releases].join(" "),
                       children: [(0, h.jsx)("div", {
                         children: (0, h.jsx)("div", {
@@ -398,118 +514,11 @@
                 })]
               })
             }), (0, h.jsx)("section", {
-              children: (0, h.jsxs)(t.Grid, {
+              children: (0, h.jsxs)(c.Grid, {
                 className: u.gap_lg,
-                children: [(0, h.jsxs)(t.Grid, {
+                children: [(0, h.jsxs)(c.Grid, {
                   className: [u.clr, u.inner, u.gap_md].join(" "),
-                  children: [(0, h.jsx)(t.Grid, {
-                    children: (0, h.jsxs)("div", {
-                      children: [(0, h.jsx)("h3", {
-                        children: "CLR 005"
-                      }), (0, h.jsx)("h2", {
-                        children: "IZA"
-                      })]
-                    })
-                  }), (0, h.jsxs)(t.Grid, {
-                    className: [u.releases, u.twoColDesktop].join(" "),
-                    children: [(0, h.jsx)(k, {
-                      src: "https://www.youtube.com/embed/QZdRtwdb1XQ"
-                    }), (0, h.jsx)(t.Grid, {
-                      className: [u.right, u.gap_sm].join(" "),
-                      children: (0, h.jsxs)("div", {
-                        className: "greys",
-                        children: [(0, h.jsx)(N, {
-                          artist: "MAP.ACHE",
-                          title: "IZA - EDIT"
-                        }), (0, h.jsx)(N, {
-                          artist: "MAP.ACHE",
-                          title: "IZA"
-                        })]
-                      })
-                    })]
-                  })]
-                }), (0, h.jsx)(t.Grid, {
-                  className: [u.clr, u.inner, u.gap_md].join(" "),
-                  children: (0, h.jsx)("div", {
-                    className: u.left,
-                    children: (0, h.jsxs)(t.Grid, {
-                      className: [u.whites, u.gap_xs, u.releases].join(" "),
-                      children: [(0, h.jsx)("div", {
-                        children: (0, h.jsx)("div", {
-                          className: [u.white, u.grey].join(" "),
-                          children: "LISTEN NOW"
-                        })
-                      }), (0, h.jsxs)("div", {
-                        className: u.logos,
-                        children: [(0, h.jsx)("a", {
-                          href: "https://lnk.to/CLR005",
-                          target: "_blank",
-                          className: u.link,
-                          rel: "noreferrer",
-                          children: (0, h.jsx)("img", {
-                            src: r(3969),
-                            alt: "Beatport logo"
-                          })
-                        }), (0, h.jsx)("a", {
-                          href: "https://lnk.to/CLR005",
-                          target: "_blank",
-                          className: u.link,
-                          rel: "noreferrer",
-                          children: (0, h.jsx)("img", {
-                            src: r(5848),
-                            alt: "Bandcamp logo"
-                          })
-                        }), (0, h.jsx)("a", {
-                          href: "https://lnk.to/CLR005",
-                          target: "_blank",
-                          className: u.link,
-                          rel: "noreferrer",
-                          children: (0, h.jsx)("img", {
-                            src: r(2491),
-                            alt: "Spotify logo"
-                          })
-                        }), (0, h.jsx)("a", {
-                          href: "https://soundcloud.com/circolocorecords/sets/map-ache-iza",
-                          target: "_blank",
-                          className: u.link,
-                          rel: "noreferrer",
-                          children: (0, h.jsx)("img", {
-                            src: r(8029),
-                            alt: "Soundcloud logo"
-                          })
-                        })]
-                      }), (0, h.jsxs)("div", {
-                        className: u.logos,
-                        children: [(0, h.jsx)("a", {
-                          href: "https://lnk.to/CLR005",
-                          target: "_blank",
-                          className: u.link,
-                          rel: "noreferrer",
-                          children: (0, h.jsx)("img", {
-                            src: r(4157),
-                            alt: "Apple Music logo"
-                          })
-                        }), (0, h.jsx)("a", {
-                          href: "https://lnk.to/CLR005",
-                          target: "_blank",
-                          className: u.link,
-                          rel: "noreferrer",
-                          children: (0, h.jsx)("img", {
-                            src: r(2479),
-                            alt: "iTunes logo"
-                          })
-                        })]
-                      })]
-                    })
-                  })
-                }), (0, h.jsx)(_, {})]
-              })
-            }), (0, h.jsx)("section", {
-              children: (0, h.jsxs)(t.Grid, {
-                className: u.gap_lg,
-                children: [(0, h.jsxs)(t.Grid, {
-                  className: [u.clr, u.inner, u.gap_md].join(" "),
-                  children: [(0, h.jsx)(t.Grid, {
+                  children: [(0, h.jsx)(c.Grid, {
                     children: (0, h.jsxs)("div", {
                       children: [(0, h.jsx)("h3", {
                         children: "CLR 004"
@@ -517,32 +526,32 @@
                         children: "ON MY OWN NOW"
                       })]
                     })
-                  }), (0, h.jsxs)(t.Grid, {
+                  }), (0, h.jsxs)(c.Grid, {
                     className: [u.releases, u.twoColDesktop].join(" "),
-                    children: [(0, h.jsx)(k, {
+                    children: [(0, h.jsx)(N, {
                       src: "https://www.youtube.com/embed/ligAi00Mlt8"
-                    }), (0, h.jsx)(t.Grid, {
+                    }), (0, h.jsx)(c.Grid, {
                       className: [u.right, u.gap_sm].join(" "),
                       children: (0, h.jsxs)("div", {
                         className: "greys",
-                        children: [(0, h.jsx)(N, {
+                        children: [(0, h.jsx)(k, {
                           artist: "DJ TENNIS & ASHEE",
                           title: "ON MY OWN NOW (FEAT. LADY DONLI)"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "DJ TENNIS & ASHEE",
                           title: "ON MY OWN NOW (FEAT. LADY DONLI) - EXTENDED"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "DJ TENNIS & ASHEE",
                           title: "ON MY OWN NOW (FEAT. LADY DONLI) - ACID DUB"
                         })]
                       })
                     })]
                   })]
-                }), (0, h.jsx)(t.Grid, {
+                }), (0, h.jsx)(c.Grid, {
                   className: [u.clr, u.inner, u.gap_md].join(" "),
                   children: (0, h.jsx)("div", {
                     className: u.left,
-                    children: (0, h.jsxs)(t.Grid, {
+                    children: (0, h.jsxs)(c.Grid, {
                       className: [u.whites, u.gap_xs, u.releases].join(" "),
                       children: [(0, h.jsx)("div", {
                         children: (0, h.jsx)("div", {
@@ -615,11 +624,11 @@
                 })]
               })
             }), (0, h.jsx)("section", {
-              children: (0, h.jsxs)(t.Grid, {
+              children: (0, h.jsxs)(c.Grid, {
                 className: u.gap_lg,
-                children: [(0, h.jsxs)(t.Grid, {
+                children: [(0, h.jsxs)(c.Grid, {
                   className: [u.clr, u.inner, u.gap_md].join(" "),
-                  children: [(0, h.jsx)(t.Grid, {
+                  children: [(0, h.jsx)(c.Grid, {
                     children: (0, h.jsxs)("div", {
                       children: [(0, h.jsx)("h3", {
                         children: "CLR 003"
@@ -627,35 +636,35 @@
                         children: "THE ATTENTION DEFICIT EP"
                       })]
                     })
-                  }), (0, h.jsxs)(t.Grid, {
+                  }), (0, h.jsxs)(c.Grid, {
                     className: [u.releases, u.twoColDesktop].join(" "),
-                    children: [(0, h.jsx)(k, {
+                    children: [(0, h.jsx)(N, {
                       src: "https://www.youtube.com/embed/gYS2HWTNNdc"
-                    }), (0, h.jsx)(t.Grid, {
+                    }), (0, h.jsx)(c.Grid, {
                       className: [u.right, u.gap_sm].join(" "),
                       children: (0, h.jsxs)("div", {
                         className: "greys",
-                        children: [(0, h.jsx)(N, {
+                        children: [(0, h.jsx)(k, {
                           artist: "Skream & Jackmaster",
                           title: "The Attention Deficit Track – Edit"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "Skream & Jackmaster",
                           title: "The Attention Deficit Track – Terrace Mix"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "Skream",
                           title: "Floral"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "Skream & Jansons",
                           title: "Track 3"
                         })]
                       })
                     })]
                   })]
-                }), (0, h.jsx)(t.Grid, {
+                }), (0, h.jsx)(c.Grid, {
                   className: [u.clr, u.inner, u.gap_md].join(" "),
                   children: (0, h.jsx)("div", {
                     className: u.left,
-                    children: (0, h.jsxs)(t.Grid, {
+                    children: (0, h.jsxs)(c.Grid, {
                       className: [u.whites, u.gap_xs, u.releases].join(" "),
                       children: [(0, h.jsx)("div", {
                         children: (0, h.jsx)("div", {
@@ -719,11 +728,11 @@
                 }), (0, h.jsx)(_, {})]
               })
             }), (0, h.jsx)("section", {
-              children: (0, h.jsxs)(t.Grid, {
+              children: (0, h.jsxs)(c.Grid, {
                 className: u.gap_lg,
-                children: [(0, h.jsxs)(t.Grid, {
+                children: [(0, h.jsxs)(c.Grid, {
                   className: [u.clr, u.inner, u.gap_md].join(" "),
-                  children: [(0, h.jsx)(t.Grid, {
+                  children: [(0, h.jsx)(c.Grid, {
                     children: (0, h.jsxs)("div", {
                       children: [(0, h.jsx)("h3", {
                         children: "CLR 002"
@@ -731,35 +740,35 @@
                         children: "CIRCOLOCO RECORDS AND NEZ PRESENT A BRAND NEW EP"
                       })]
                     })
-                  }), (0, h.jsxs)(t.Grid, {
+                  }), (0, h.jsxs)(c.Grid, {
                     className: [u.releases, u.twoColDesktop].join(" "),
-                    children: [(0, h.jsx)(k, {
+                    children: [(0, h.jsx)(N, {
                       src: "https://www.youtube.com/embed/tW_rwmCgy1M"
-                    }), (0, h.jsx)(t.Grid, {
+                    }), (0, h.jsx)(c.Grid, {
                       className: [u.right, u.gap_sm].join(" "),
                       children: (0, h.jsxs)("div", {
                         className: "greys",
                         children: [(0, h.jsx)("div", {
                           className: [u.grey, u.featuring, u.white].join(" "),
                           children: "FEATURING"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "Nez",
                           title: "You Wanna?"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "NEZ AND SCHOOLBOY Q",
                           title: "Let's Get it"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "NEZ, Moodymann, and GANGSTA Boo",
                           title: "Freaks"
                         })]
                       })
                     })]
                   })]
-                }), (0, h.jsx)(t.Grid, {
+                }), (0, h.jsx)(c.Grid, {
                   className: [u.clr, u.inner, u.gap_md].join(" "),
                   children: (0, h.jsx)("div", {
                     className: u.left,
-                    children: (0, h.jsxs)(t.Grid, {
+                    children: (0, h.jsxs)(c.Grid, {
                       className: [u.whites, u.gap_xs, u.releases].join(" "),
                       children: [(0, h.jsx)("div", {
                         children: (0, h.jsx)("div", {
@@ -832,11 +841,11 @@
                 }), (0, h.jsx)(_, {})]
               })
             }), (0, h.jsx)("section", {
-              children: (0, h.jsxs)(t.Grid, {
+              children: (0, h.jsxs)(c.Grid, {
                 className: u.gap_lg,
-                children: [(0, h.jsxs)(t.Grid, {
+                children: [(0, h.jsxs)(c.Grid, {
                   className: [u.clr, u.inner, u.gap_md].join(" "),
-                  children: [(0, h.jsx)(t.Grid, {
+                  children: [(0, h.jsx)(c.Grid, {
                     children: (0, h.jsxs)("div", {
                       children: [(0, h.jsx)("h3", {
                         children: "CLR 001"
@@ -844,7 +853,7 @@
                         children: "MONDAY DREAMIN'"
                       })]
                     })
-                  }), (0, h.jsxs)(t.Grid, {
+                  }), (0, h.jsxs)(c.Grid, {
                     className: [u.releases, u.twoColDesktop].join(" "),
                     children: [(0, h.jsx)("div", {
                       className: u.left,
@@ -852,82 +861,82 @@
                         src: r(7811),
                         alt: "Monday Dreamin' album art"
                       })
-                    }), (0, h.jsx)(t.Grid, {
+                    }), (0, h.jsx)(c.Grid, {
                       className: [u.right, u.gap_sm].join(" "),
                       children: (0, h.jsxs)("div", {
                         className: "greys",
                         children: [(0, h.jsx)("div", {
                           className: [u.grey, u.featuring, u.white].join(" "),
                           children: "FEATURING"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "Lost Souls Of Saturn & TOKiMONSTA",
                           title: "Revision Of The Past"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "RAMPA",
                           title: "THE CHURCH"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "Moodymann",
                           title: "Keep On Coming feat. CD"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "Butch",
                           title: "Raindrops feat. Kemelion"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "Margaret Dygas",
                           title: "Wishing Well"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "Carl Craig",
                           title: "Forever Free"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "DEICHKIND",
                           title: "AUTONOM (DIXON EDIT)"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "Adam Beyer",
                           title: "Break It Up"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "tINI",
                           title: "What If, Then What? feat. Amiture"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "Jamie Jones",
                           title: "Laser Lass"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "SETH TROXLER",
                           title: "LUMARTES (Extended)"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "Tale Of Us",
                           title: "Nova Two"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "SAMA' ABDULHADI",
                           title: "REVERIE"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "Luciano",
                           title: "Mantra For Lizzie"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "DJ Tennis",
                           title: "Atlanta"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "Mano Le Tough",
                           title: "As If To Say"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "KERRI CHANDLER",
                           title: "YOU"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "Damian Lazarus",
                           title: "The Future feat. Robert Owens"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "Bedouin",
                           title: "Up In Flames"
-                        }), (0, h.jsx)(N, {
+                        }), (0, h.jsx)(k, {
                           artist: "Red Axes",
                           title: "Calib"
                         })]
                       })
                     })]
                   })]
-                }), (0, h.jsx)(t.Grid, {
+                }), (0, h.jsx)(c.Grid, {
                   className: [u.clr, u.inner, u.gap_md].join(" "),
                   children: (0, h.jsx)("div", {
                     className: u.left,
-                    children: (0, h.jsxs)(t.Grid, {
+                    children: (0, h.jsxs)(c.Grid, {
                       className: [u.whites, u.gap_xs, u.releases].join(" "),
                       children: [(0, h.jsx)("div", {
                         children: (0, h.jsx)("div", {
@@ -1009,11 +1018,11 @@
                 })]
               })
             }), (0, h.jsx)("section", {
-              children: (0, h.jsx)(t.Grid, {
+              children: (0, h.jsx)(c.Grid, {
                 className: u.gap_lg,
-                children: (0, h.jsxs)(t.Grid, {
+                children: (0, h.jsxs)(c.Grid, {
                   className: [u.clr, u.inner, u.gap_md].join(" "),
-                  children: [(0, h.jsx)(t.Grid, {
+                  children: [(0, h.jsx)(c.Grid, {
                     children: (0, h.jsx)("div", {
                       children: (0, h.jsxs)("h2", {
                         children: ["THE MONDAY DREAMIN' EP", (0, h.jsx)("span", {
@@ -1022,7 +1031,7 @@
                         })]
                       })
                     })
-                  }), (0, h.jsxs)(t.Grid, {
+                  }), (0, h.jsxs)(c.Grid, {
                     className: [u.releases, u.fourColDesktop, u.eps].join(" "),
                     children: [(0, h.jsxs)("div", {
                       children: [(0, h.jsx)("div", {
@@ -1032,9 +1041,9 @@
                         className: u.albumCover,
                         src: r(7058),
                         alt: "Blue EP album art"
-                      }), (0, h.jsx)(t.Grid, {
+                      }), (0, h.jsx)(c.Grid, {
                         className: [u.right, u.gap_sm, u.flex_end].join(" "),
-                        children: (0, h.jsxs)(t.Grid, {
+                        children: (0, h.jsxs)(c.Grid, {
                           className: [u.whites, u.gap_xs].join(" "),
                           children: [(0, h.jsxs)("div", {
                             className: u.logos,
@@ -1107,9 +1116,9 @@
                         className: u.albumCover,
                         src: r(542),
                         alt: "Green EP album art"
-                      }), (0, h.jsx)(t.Grid, {
+                      }), (0, h.jsx)(c.Grid, {
                         className: [u.right, u.gap_sm, u.flex_end].join(" "),
-                        children: (0, h.jsxs)(t.Grid, {
+                        children: (0, h.jsxs)(c.Grid, {
                           className: [u.whites, u.gap_xs].join(" "),
                           children: [(0, h.jsxs)("div", {
                             className: u.logos,
@@ -1182,9 +1191,9 @@
                         className: u.albumCover,
                         src: r(3383),
                         alt: "Violet EP album art"
-                      }), (0, h.jsx)(t.Grid, {
+                      }), (0, h.jsx)(c.Grid, {
                         className: [u.right, u.gap_sm, u.flex_end].join(" "),
-                        children: (0, h.jsxs)(t.Grid, {
+                        children: (0, h.jsxs)(c.Grid, {
                           className: [u.whites, u.gap_xs].join(" "),
                           children: [(0, h.jsxs)("div", {
                             className: u.logos,
@@ -1257,9 +1266,9 @@
                         className: u.albumCover,
                         src: r(5593),
                         alt: "Black EP album art"
-                      }), (0, h.jsx)(t.Grid, {
+                      }), (0, h.jsx)(c.Grid, {
                         className: [u.right, u.gap_sm, u.flex_end].join(" "),
-                        children: (0, h.jsxs)(t.Grid, {
+                        children: (0, h.jsxs)(c.Grid, {
                           className: [u.whites, u.gap_xs].join(" "),
                           children: [(0, h.jsxs)("div", {
                             className: u.logos,
@@ -1329,9 +1338,9 @@
                 })
               })
             }), (0, h.jsx)("section", {
-              children: (0, h.jsxs)(t.Grid, {
+              children: (0, h.jsxs)(c.Grid, {
                 className: [u.inner, u.gap_lg].join(" "),
-                children: [(0, h.jsx)(t.Grid, {
+                children: [(0, h.jsx)(c.Grid, {
                   className: [u.intro, u.gap_md].join(" "),
                   children: (0, h.jsx)("h2", {
                     children: "CIRCOLOCO AND ROCKSTAR GAMES LAUNCH A NEW LABEL"
@@ -1348,9 +1357,9 @@
                 })]
               })
             }), (0, h.jsx)("section", {
-              children: (0, h.jsx)(t.Grid, {
+              children: (0, h.jsx)(c.Grid, {
                 children: (0, h.jsx)("h4", {
-                  children: (0, h.jsx)(t.A, {
+                  children: (0, h.jsx)(c.A, {
                     to: "/about",
                     className: u.link,
                     children: "ABOUT US"
@@ -1384,13 +1393,13 @@
         E = () => (0, h.jsxs)("div", {
           className: v.aboutUs,
           children: [(0, h.jsx)("section", {
-            children: (0, h.jsxs)(t.Grid, {
+            children: (0, h.jsxs)(c.Grid, {
               className: v.gap_lg,
-              children: [(0, h.jsx)(t.Grid, {
+              children: [(0, h.jsx)(c.Grid, {
                 className: [v.inner, v.gap_lg].join(" "),
-                children: (0, h.jsxs)(t.Grid, {
+                children: (0, h.jsxs)(c.Grid, {
                   className: [v.top, v.gap_md].join(" "),
-                  children: [(0, h.jsx)(t.A, {
+                  children: [(0, h.jsx)(c.A, {
                     to: "/",
                     className: [v.back, v.link].join(" "),
                     children: "Back to Home"
@@ -1400,9 +1409,9 @@
                     alt: "CircoLoco Records logo"
                   })]
                 })
-              }), (0, h.jsxs)(t.Grid, {
+              }), (0, h.jsxs)(c.Grid, {
                 className: [v.about, v.inner, v.gap_sm].join(" "),
-                children: [(0, h.jsxs)(t.Grid, {
+                children: [(0, h.jsxs)(c.Grid, {
                   className: v.gap_sm,
                   children: [(0, h.jsx)("h2", {
                     children: "About Us"
@@ -1444,13 +1453,13 @@
         C = () => (0, h.jsxs)("div", {
           className: L.submissions,
           children: [(0, h.jsx)("section", {
-            children: (0, h.jsxs)(t.Grid, {
+            children: (0, h.jsxs)(c.Grid, {
               className: L.gap_lg,
-              children: [(0, h.jsx)(t.Grid, {
+              children: [(0, h.jsx)(c.Grid, {
                 className: [L.inner, L.gap_lg].join(" "),
-                children: (0, h.jsxs)(t.Grid, {
+                children: (0, h.jsxs)(c.Grid, {
                   className: [L.top, L.gap_md].join(" "),
-                  children: [(0, h.jsx)(t.A, {
+                  children: [(0, h.jsx)(c.A, {
                     to: "/",
                     className: [L.back, L.link].join(" "),
                     children: "Back to Home"
@@ -1460,9 +1469,9 @@
                     alt: "CircoLoco Records logo"
                   })]
                 })
-              }), (0, h.jsxs)(t.Grid, {
+              }), (0, h.jsxs)(c.Grid, {
                 className: [L.about, L.inner, L.gap_sm].join(" "),
-                children: [(0, h.jsxs)(t.Grid, {
+                children: [(0, h.jsxs)(c.Grid, {
                   className: L.gap_sm,
                   children: [(0, h.jsx)("h2", {
                     children: "Submissions"
@@ -1496,7 +1505,7 @@
             children: (0, h.jsx)(j, {})
           }), (0, h.jsx)(p, {})]
         }),
-        y = [{
+        R = [{
           path: "/about",
           element: (0, h.jsx)(E, {})
         }, {
@@ -1506,16 +1515,16 @@
           path: "/",
           element: (0, h.jsx)(w, {})
         }],
-        R = () => (0, c.useRoutes)(y),
+        y = () => (0, t.useRoutes)(R),
         A = window?.env?.graphEnv ?? "prod",
         T = e => {
           let {
             basename: s
           } = e;
           const [r] = (0, o.useModal)();
-          return (0, h.jsxs)(c.BrowserRouter, {
+          return (0, h.jsxs)(t.BrowserRouter, {
             basename: s,
-            children: [r, (0, h.jsx)(t.ScrollToTop, {}), (0, h.jsx)(R, {})]
+            children: [r, (0, h.jsx)(c.ScrollToTop, {}), (0, h.jsx)(y, {})]
           })
         },
         S = (0, n.makeVar)({
@@ -1560,8 +1569,8 @@
       var a = r(1853),
         l = Symbol.for("react.element"),
         i = (Symbol.for("react.fragment"), Object.prototype.hasOwnProperty),
-        c = a.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,
-        t = {
+        t = a.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,
+        c = {
           key: !0,
           ref: !0,
           __self: !0,
@@ -1572,7 +1581,7 @@
         var a, o = {},
           n = null,
           d = null;
-        for (a in void 0 !== r && (n = "" + r), void 0 !== s.key && (n = "" + s.key), void 0 !== s.ref && (d = s.ref), s) i.call(s, a) && !t.hasOwnProperty(a) && (o[a] = s[a]);
+        for (a in void 0 !== r && (n = "" + r), void 0 !== s.key && (n = "" + s.key), void 0 !== s.ref && (d = s.ref), s) i.call(s, a) && !c.hasOwnProperty(a) && (o[a] = s[a]);
         if (e && e.defaultProps)
           for (a in s = e.defaultProps) void 0 === o[a] && (o[a] = s[a]);
         return {
@@ -1581,7 +1590,7 @@
           key: n,
           ref: d,
           props: o,
-          _owner: c.current
+          _owner: t.current
         }
       }
       s.jsx = o, s.jsxs = o
